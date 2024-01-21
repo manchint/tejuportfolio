@@ -1,0 +1,46 @@
+.app {
+    text-align: center;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .options span {
+    margin-left: 20px;
+  }
+  
+  .body {
+    margin: 20px;
+    text-align: left;
+    display: flex;
+  }
+  .body-left{
+    width: 60%;
+    padding-top: 10% !important;
+  }
+  .body p{
+    font-style: oblique;
+    font-size: 20px
+  }
+  .body img{
+    width: 40%;
+    height: 425px;
+  }
+  .button{
+    color: white;
+    background: darkblue;
+    padding: 15px;
+    font-size: medium;
+    margin: 20px;
+    border-radius: 10px
+  }
+  
