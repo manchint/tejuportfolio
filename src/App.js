@@ -4,8 +4,9 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Header from './pages/Header';
 import Home from './pages/Home';
-import About from './pages/Experience';
+import Experience from './pages/Experience';
 import Contact from './pages/Contact';
+import Education from './pages/Education';
 import Projects from './pages/Projects';
 
 function App() {
@@ -15,11 +16,10 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/education" element={<Education />} />
+          <Route path="/experience" element={<Experience />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-          {/* <Route path="/about" component={About} />
-          <Route path="/contact" component={Contact} /> */}
     </Router>
     </div>
   );
